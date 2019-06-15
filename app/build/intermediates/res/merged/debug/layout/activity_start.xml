@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haoke.demo.activity.StartActivity">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rtmpUrleditText" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/StartRtmpPush"
+            android:id="@+id/startRtmpButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/StartRtmpPush2"
+            android:id="@+id/startRtmpButton2" />
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[SG*861358034223693*000D*LK,50,100,100]" />
+
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="socket发送消息" />
+
+    <TextView
+        android:id="@+id/textView_battery"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:text="现在的电量是100%" />
+
+    <TextView
+        android:id="@+id/textView_xt"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:text="发送心跳" />
+
+    <TextView
+        android:id="@+id/textView_location"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:text="位置信息" />
+
+    <Button
+        android:id="@+id/button_goTo"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入指令发送界面" />
+
+</LinearLayout>
