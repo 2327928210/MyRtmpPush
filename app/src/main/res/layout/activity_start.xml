@@ -7,7 +7,7 @@
     tools:context="com.haoke.demo.activity.StartActivity">
 
     <EditText
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rtmpUrleditText" />
@@ -31,25 +31,9 @@
     </LinearLayout>
 
 
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="[SG*861358034223693*000D*LK,50,100,100]" />
-
-
-    <Button
-        android:id="@+id/button_send"
-        android:layout_marginTop="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="socket发送消息" />
-
     <TextView
         android:id="@+id/textView_battery"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -59,7 +43,7 @@
 
     <TextView
         android:id="@+id/textView_xt"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -78,8 +62,15 @@
         android:text="位置信息" />
 
     <Button
+        android:id="@+id/button_uploadFile"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ftp 上传文件" />
+
+    <Button
         android:id="@+id/button_goTo"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="进入指令发送界面" />

@@ -55,6 +55,7 @@
             android:exported="false" />
 
         <activity android:name="com.haoke.demo.activity.InstructTestActivity" />
+        <activity android:name="com.haoke.demo.application.BaseActicty" />
     </application>
 
 </manifest>

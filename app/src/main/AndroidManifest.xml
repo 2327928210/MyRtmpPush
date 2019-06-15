@@ -51,6 +51,7 @@
             android:exported="false" />
 
         <activity android:name=".activity.InstructTestActivity"></activity>
+        <activity android:name=".application.BaseActicty" />
     </application>
 
 </manifest>
